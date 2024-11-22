@@ -19,4 +19,13 @@ public class Scenes : MonoBehaviour
     {
         SceneManager.LoadScene("Map");
     }
+    public void Save()
+    {
+        //tämä ajetaan menusta kun painetaan save painiketta
+        GameManager.manager.Save();
+    }
+    public void Load()
+    {
+        GameManager.manager.Load();
+    }
 }

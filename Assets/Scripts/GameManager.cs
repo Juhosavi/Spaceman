@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 {
 
     public int totalScore;
-    private int enemyCount = 0;
+    public int enemyCount = 0;
     public Image[] lives;
     public int livesRemaining = 3;
     public static GameManager manager;
@@ -77,12 +77,42 @@ public class GameManager : MonoBehaviour
         Debug.Log("GAMESAVED");
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file = File.Create(Application.persistentDataPath + "/playerInfo.dat");
+        PlayerData data = new PlayerData();
+        data.totalScore = totalScore;
+        data.enemyCount = enemyCount;
+        data.livesRemaining = livesRemaining;
+        data.currentLevel = currentLevel;
+        data.Level1 = Level1;
+        data.Level2 = Level2;
+        data.Level3 = Level3;
+        data.Level4 = Level4;
+        bf.Serialize(file, data);
+        file.Close();
 
     }
 
     public void Load()
     {
+        //Katsotaan onko tallennettua tiedostao olemassa. jos on niin load tapahtuu
+        if(File.Exists(Application.persistentDataPath + "/playerInfo.dat"))
+        {
+            Debug.Log("Game LOADED");
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Open(Application.persistentDataPath + "/playerInfo.dat", FileMode.Open);
+            PlayerData data = (PlayerData)bf.Deserialize(file);
+            file.Close();
 
+            //siirret‰‰n ladattu info GameManageriin;
+            totalScore = data.totalScore;
+            enemyCount = data.enemyCount;
+            enemyCount = data.enemyCount;
+            livesRemaining = data.livesRemaining;
+            Level1 = data.Level1;
+            Level2 = data.Level2;
+            Level3 = data.Level3;
+            Level4 = data.Level4;
+            
+        }
     }
     //toinen luokka joka voidaan serialioisda, pit‰‰ sis‰ll‰‰n vain sen datan mit‰ seriaalioidaan
 
@@ -90,8 +120,7 @@ public class GameManager : MonoBehaviour
     class PlayerData
     {
         public int totalScore;
-        private int enemyCount = 0;
-        public Image[] lives;
+        public int enemyCount = 0;
         public int livesRemaining = 3;
         public string currentLevel;
         public bool Level1;
