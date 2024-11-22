@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 6e7fc911a87c36f43a357ee73942e8d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9011097758798392708
+    second: spacemanuusin2222_0
+  - first:
+      213: -7396967199497678843
+    second: spacemanuusin2222_1
+  - first:
+      213: -4194846455220658964
+    second: spacemanuusin2222_2
+  - first:
+      213: 8192495817436685950
+    second: spacemanuusin2222_3
+  - first:
+      213: -1907968111914561960
+    second: spacemanuusin2222_4
+  - first:
+      213: -3246841211586681272
+    second: spacemanuusin2222_5
+  - first:
+      213: -2723920691424282998
+    second: spacemanuusin2222_6
+  - first:
+      213: -4440308971430601485
+    second: spacemanuusin2222_7
+  - first:
+      213: -4479596440241097165
+    second: spacemanuusin2222_8
+  - first:
+      213: -9130106468177415251
+    second: spacemanuusin2222_9
+  - first:
+      213: 7074215037446218907
+    second: spacemanuusin2222_10
+  - first:
+      213: -272948457327204695
+    second: spacemanuusin2222_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spacemanuusin2222_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 401
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72d08ac45622f280800000000000000
+      internalID: -9011097758798392708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanuusin2222_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 485
+        width: 88
+        height: 127
+      alignment: 9
+      pivot: {x: 0.32648137, y: 0.8169796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50099bad581b85990800000000000000
+      internalID: -7396967199497678843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanuusin2222_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 486
+        width: 69
+        height: 124
+      alignment: 9
+      pivot: {x: 0.73135865, y: 0.830246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec144dcf59e8c5c0800000000000000
+      internalID: -4194846455220658964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanuusin2222_3
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 430
+        width: 86
+        height: 180
+      alignment: 9
+      pivot: {x: 0.6533423, y: 0.89716524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76ef2e4a8791b170800000000000000
+      internalID: 8192495817436685950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanuusin2222_4
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 419
+        width: 103
+        height: 198
+      alignment: 9
+      pivot: {x: 0.44609174, y: 0.87508106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e4f8e6c198585e0800000000000000
+      internalID: -1907968111914561960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanuusin2222_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 4
+        width: 201
+        height: 330
+      alignment: 9
+      pivot: {x: 0.43784413, y: 0.19502777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86b1572090b23ad0800000000000000
+      internalID: -2723920691424282998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanuusin2222_7
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 200
+        width: 67
+        height: 114
+      alignment: 9
+      pivot: {x: 0.6657496, y: 0.89574474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc16e8248ad062c0800000000000000
+      internalID: -4440308971430601485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanuusin2222_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 197
+        width: 83
+        height: 123
+      alignment: 9
+      pivot: {x: 0.7006968, y: 0.8611448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3f9c26a885b4180800000000000000
+      internalID: -9130106468177415251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanuusin2222_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 38
+        width: 100
+        height: 132
+      alignment: 9
+      pivot: {x: 0.6388153, y: 0.85229576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9465b38819ac2260800000000000000
+      internalID: 7074215037446218907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanuusin2222_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 28
+        width: 79
+        height: 128
+      alignment: 9
+      pivot: {x: 0.38578585, y: 0.8958397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6650ff2da463cf0800000000000000
+      internalID: -272948457327204695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 53298a5c322c48f4c9fdf7f6665fdc03
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spacemanuusin2222_0: -9011097758798392708
+      spacemanuusin2222_1: -7396967199497678843
+      spacemanuusin2222_10: 7074215037446218907
+      spacemanuusin2222_11: -272948457327204695
+      spacemanuusin2222_2: -4194846455220658964
+      spacemanuusin2222_3: 8192495817436685950
+      spacemanuusin2222_4: -1907968111914561960
+      spacemanuusin2222_6: -2723920691424282998
+      spacemanuusin2222_7: -4440308971430601485
+      spacemanuusin2222_8: -4479596440241097165
+      spacemanuusin2222_9: -9130106468177415251
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
