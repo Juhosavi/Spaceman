@@ -4,17 +4,24 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
 using System.IO;
+using System.Collections;
 using System.Runtime.Serialization.Formatters.Binary;
 
 public class GameManager : MonoBehaviour
 {
 
     public int totalScore;
+ 
+
+   
     public int enemyCount = 0;
     public Image[] lives;
     public int livesRemaining = 3;
     public static GameManager manager;
     public string currentLevel;
+    public Scenes scenes;
+    public bool isGameOver;
+    
     //jokaista tasoa varten on muuttuja, muuttujan nimen pitää olla sama kuin LoadlEVELSCRIPTISSÄ OLEVAN LEVELTOLOAD MUUTTUJAN ARVO
     public bool Level1;
     public bool Level2;
@@ -35,6 +42,34 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    private void OnEnable()
+    {
+        // Kuuntelee aina, kun Scene vaihtuu
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        // Poistaa kuuntelijan käytöstä
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        //hakee SceneManagerin
+        scenes = FindFirstObjectByType<Scenes>();
+        // Hakee Lives-Containerin ja sen lapsena olevat Lives-kuvat
+        GameObject livesContainer = GameObject.Find("Lives");
+
+        if (livesContainer != null)
+        {
+            lives = livesContainer.GetComponentsInChildren<Image>();
+        }
+        else
+        {
+            Debug.LogWarning("Lives container not found in this scene!");
+        }
+    }
+
     void Start()
     {
         //UpdateEnemyCountText(); 
@@ -43,15 +78,30 @@ public class GameManager : MonoBehaviour
     {
         if (livesRemaining <= 0)
         {
-            Debug.Log("GAME OVER!");
+            isGameOver = true; // Estää toistuvan suorituksen
+            PauseGame();
+            //LOAD SCENE Terolla pelaajalla triggerinä.
+           
+           
             
         }
-        if(Input.GetKeyDown(KeyCode.M)) 
+
+        if (Input.GetKeyDown(KeyCode.M)) 
         {
             SceneManager.LoadScene("MainMenu");
         }
+ 
+        
     }
-
+    public void CallGameOver()
+    {
+        scenes.GameOver();
+    }
+    public void ResumeGame()
+    {
+        Time.timeScale = 1; // Jatkaa pelin ajan kulkua
+    }
+ 
     public void EnemyDestroyed()
     {
         enemyCount++;
@@ -64,13 +114,44 @@ public class GameManager : MonoBehaviour
     }
     public void RemoveLife()
     {
-        livesRemaining -= 1;
-        lives[livesRemaining].enabled = false;
+        if (livesRemaining > 0)
+        {
+            livesRemaining--; // Vähennä elämien määrää
+            if (lives != null && livesRemaining < lives.Length)
+            {
+                PauseBriefly();
+                lives[livesRemaining].enabled = false; // Piilota seuraava elämä
+            }
+        }
+
     }
     public void TotalScore(int score)
     {
         totalScore += score;
     }
+    IEnumerator PauseCoroutine()
+    {
+        Time.timeScale = 0; // Pysäytä peli
+        yield return new WaitForSecondsRealtime(0.3f); // Odota aina 0.3 sekuntia
+        Time.timeScale = 1; // Jatka peliä
+    }
+    public void PauseGame()
+    {
+        Time.timeScale = 0; // Pysäytä peli
+        if(isGameOver == true)
+        {
+            CallGameOver();
+        }
+           
+
+
+    }
+    public void PauseBriefly()
+    {
+        StartCoroutine(PauseCoroutine());
+    }
+   
+
 
     public void Save()
     {
@@ -96,6 +177,7 @@ public class GameManager : MonoBehaviour
         //Katsotaan onko tallennettua tiedostao olemassa. jos on niin load tapahtuu
         if(File.Exists(Application.persistentDataPath + "/playerInfo.dat"))
         {
+            //MIETI TÄHÄN JOS LAITAT LOAD NAPPULAN VASTA KUN ON LADATTAVAA DATAA ?
             Debug.Log("Game LOADED");
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Open(Application.persistentDataPath + "/playerInfo.dat", FileMode.Open);

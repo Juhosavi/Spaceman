@@ -27,6 +27,7 @@ public class EnemyAmmo : MonoBehaviour
         {
             Debug.Log("Pelaajaan osuttu");
             manager.RemoveLife();
+            Destroy(gameObject);
         }
 
     }

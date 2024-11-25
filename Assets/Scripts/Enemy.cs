@@ -21,10 +21,6 @@ public class Enemy : MonoBehaviour
     {
 
     }
-
-
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("PlayerProjectile"))
@@ -41,7 +37,7 @@ public class Enemy : MonoBehaviour
     }
     public void Shoot()
     {
-        Debug.Log("AMMUS");
+        
         Instantiate(projectile,ammoSpawn.transform.position, Quaternion.identity);
     }
 }

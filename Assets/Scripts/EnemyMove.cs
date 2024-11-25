@@ -10,7 +10,7 @@ public class EnemyMove : MonoBehaviour
 
     private void Start()
     {
-        randnum = Random.Range(3, 12);
+        randnum = Random.Range(3, 10);
         InvokeRepeating(nameof(ShootAmmo), randnum, randnum);
     }
     void Update()

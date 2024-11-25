@@ -4,6 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class Scenes : MonoBehaviour
 {
+    public Image pause;
+    public Image gameOver;
+    public bool isPaused = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,7 +16,17 @@ public class Scenes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (isPaused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
     }
     public void PlayGame()
     {
@@ -28,4 +41,37 @@ public class Scenes : MonoBehaviour
     {
         GameManager.manager.Load();
     }
+    public void RestartScene()
+    {
+        // Hakee nykyisen kohtauksen nimen
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        
+        // Lataa nykyisen kohtauksen uudelleen
+        SceneManager.LoadScene(currentSceneName);
+    }
+    public void PauseGame()
+    {
+        Time.timeScale = 0; // Pys‰ytt‰‰ pelin ajan
+        isPaused = true;
+        pause.gameObject.SetActive(true);
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1; // Jatkaa pelin ajan kulkua
+        isPaused = false;
+        pause.gameObject.SetActive(false);
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Loading");
+        
+    }
+    public void GameOver()
+    {
+        gameOver.gameObject.SetActive(true);
+        
+        
+    }
+
 }
