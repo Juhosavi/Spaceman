@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1dc7c13261ff2034db058805b150c657
+guid: 8080dc3c607989842ab6e181c176cc95
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4303334271956509266
-    second: space4_0
+      213: -7077181564776334645
+    second: vihollisraku_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: space4_0
+      name: vihollisraku_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 197
+        y: 80
+        width: 92
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ead944a974c7744c0800000000000000
-      internalID: -4303334271956509266
+      spriteID: bca30940ddcc8cd90800000000000000
+      internalID: -7077181564776334645
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      space4_0: -4303334271956509266
+      vihollisraku_0: -7077181564776334645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

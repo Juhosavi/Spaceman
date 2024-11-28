@@ -5,6 +5,7 @@ public class LightMove : MonoBehaviour
 {
     public float moveSpeed;
 
+
     void Update()
     {
         // Liikuta objektia oikealle tai vasemmalle

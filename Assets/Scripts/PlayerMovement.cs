@@ -23,7 +23,13 @@ public class PlayerMovement : MonoBehaviour
     {
         // Liikutetaan pelaajaa vaakasuunnassa
         float horizontalInput = Input.GetAxis("Horizontal");
-        transform.Translate(horizontalInput * moveSpeed * Time.deltaTime, 0, 0);
+        Vector3 newPosition = transform.position + new Vector3(horizontalInput * moveSpeed * Time.deltaTime, 0, 0);
+
+        // Rajoitetaan pelaajan liike x-koordinaattien -8 ja +8 v‰lille
+        newPosition.x = Mathf.Clamp(newPosition.x, -8f, 8f);
+
+        // P‰ivitet‰‰n pelaajan sijainti
+        transform.position = newPosition;
 
         // K‰‰nnet‰‰n hahmo oikeaan suuntaan liikesuunnan mukaan
         if (horizontalInput > 0)
@@ -36,10 +42,12 @@ public class PlayerMovement : MonoBehaviour
             // Vasemmalle suuntaan, k‰‰nnet‰‰n hahmo katsomaan vasemmalle (negatiivinen x)
             transform.localScale = new Vector3(1, 1, 1); // Varmista, ett‰ t‰m‰ on vasemmalle.
         }
+        animator.SetBool("Run", horizontalInput != 0);
 
         // Ammutaan ammus
         ShootAmmo();
     }
+
 
     void ShootAmmo()
     {

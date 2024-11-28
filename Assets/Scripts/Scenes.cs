@@ -40,6 +40,7 @@ public class Scenes : MonoBehaviour
     public void Load()
     {
         GameManager.manager.Load();
+        
     }
     public void RestartScene()
     {
@@ -72,6 +73,10 @@ public class Scenes : MonoBehaviour
         gameOver.gameObject.SetActive(true);
         
         
+    }
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 
 }

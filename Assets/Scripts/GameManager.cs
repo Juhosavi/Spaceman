@@ -90,8 +90,20 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene("MainMenu");
         }
- 
+
+     CheckVictoryCondition();
         
+    }
+    public void CheckVictoryCondition()
+    {
+        if(Level1 &&  Level2 && Level3)
+        {
+            currentLevel = "";
+            manager.Level1 = false;
+            manager.Level2 = false;
+            manager.Level3 = false;
+            SceneManager.LoadScene("Finish");
+        }
     }
     public void CallGameOver()
     {

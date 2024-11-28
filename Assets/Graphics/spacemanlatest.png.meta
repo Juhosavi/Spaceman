@@ -1,25 +1,43 @@
 fileFormatVersion: 2
-guid: 7eee1347a1b9c584f8ad1a4ec9e98962
+guid: f1bebef99aea4094d83f4ee2b92d14b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7158154596350859282
-    second: spaceboy_0
+      213: -3225454318078108730
+    second: spacemanlatest_0
   - first:
-      213: 3554327712913956320
-    second: spaceboy_1
+      213: -3721463832404465593
+    second: spacemanlatest_1
   - first:
-      213: 5700956273522825570
-    second: spaceboy_2
+      213: 8440122204181597674
+    second: spacemanlatest_2
   - first:
-      213: 1408773385822724257
-    second: spaceboy_3
+      213: 2471211607609893963
+    second: spacemanlatest_3
   - first:
-      213: -127791357381046162
-    second: spaceboy_4
+      213: -5167183578813053967
+    second: spacemanlatest_4
   - first:
-      213: 2325849393543427195
-    second: spaceboy_5
+      213: 4269410893546581351
+    second: spacemanlatest_5
+  - first:
+      213: 662813130720585665
+    second: spacemanlatest_6
+  - first:
+      213: 7602292769238682769
+    second: spacemanlatest_7
+  - first:
+      213: 446477802932661080
+    second: spacemanlatest_8
+  - first:
+      213: -2245674483167359464
+    second: spacemanlatest_9
+  - first:
+      213: 9211738972656557159
+    second: spacemanlatest_10
+  - first:
+      213: -788139808068381876
+    second: spacemanlatest_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,13 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spaceboy_0
+      name: Rocket
       rect:
         serializedVersion: 2
         x: 0
-        y: 393
+        y: 625
         width: 401
-        height: 80
+        height: 79
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,118 +161,206 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21892da0eafd65360800000000000000
-      internalID: 7158154596350859282
+      spriteID: 6cb54bb0362ec33d0800000000000000
+      internalID: -3225454318078108730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceboy_1
+      name: LeftHandUp
       rect:
         serializedVersion: 2
-        x: 459
-        y: 334
+        x: 7
+        y: 485
         width: 88
-        height: 224
+        height: 127
       alignment: 9
-      pivot: {x: 0.63342977, y: 0.8459655}
+      pivot: {x: 0.31070697, y: 0.8115143}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ed10972932835130800000000000000
-      internalID: 3554327712913956320
+      spriteID: 74861119c54ba5cc0800000000000000
+      internalID: -3721463832404465593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceboy_2
+      name: RightHandUp
       rect:
         serializedVersion: 2
-        x: 596
-        y: 252
+        x: 144
+        y: 486
+        width: 69
+        height: 124
+      alignment: 9
+      pivot: {x: 0.69112253, y: 0.82464844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed81215d66512570800000000000000
+      internalID: 8440122204181597674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanlatest_3
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 430
+        width: 86
+        height: 180
+      alignment: 9
+      pivot: {x: 0.6452715, y: 0.8663174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44e8643dd18b4220800000000000000
+      internalID: 2471211607609893963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanlatest_4
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 419
+        width: 103
+        height: 198
+      alignment: 9
+      pivot: {x: 0.44609174, y: 0.86456484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3cd9779e97a48b0800000000000000
+      internalID: -5167183578813053967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 4
         width: 201
-        height: 329
+        height: 330
       alignment: 9
-      pivot: {x: 0.5642588, y: 0.11812139}
+      pivot: {x: 0.45165667, y: 0.13193005}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 269dc5b968ddd1f40800000000000000
-      internalID: 5700956273522825570
+      spriteID: 1c7a019d709c23900800000000000000
+      internalID: 662813130720585665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceboy_3
+      name: spacemanlatest_7
       rect:
         serializedVersion: 2
-        x: 877
-        y: 342
-        width: 91
-        height: 216
+        x: 263
+        y: 200
+        width: 67
+        height: 114
       alignment: 9
-      pivot: {x: 0.2677431, y: 0.86965126}
+      pivot: {x: 0.6243122, y: 0.87747943}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a0ecfe2ee7fc8310800000000000000
-      internalID: 1408773385822724257
+      spriteID: 19c0ef4bef4c08960800000000000000
+      internalID: 7602292769238682769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceboy_4
+      name: spacemanlatest_9
       rect:
         serializedVersion: 2
-        x: 272
-        y: 10
-        width: 117
-        height: 294
+        x: 386
+        y: 197
+        width: 75
+        height: 123
       alignment: 9
-      pivot: {x: 0.6505367, y: 0.8714265}
+      pivot: {x: 0.7257841, y: 0.87243056}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6010f1007ef93ef0800000000000000
-      internalID: -127791357381046162
+      spriteID: 81e86a5a4f2c5d0e0800000000000000
+      internalID: -2245674483167359464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceboy_5
+      name: spacemanlatest_10
       rect:
         serializedVersion: 2
-        x: 831
-        y: 41
-        width: 110
-        height: 289
+        x: 247
+        y: 38
+        width: 100
+        height: 132
       alignment: 9
-      pivot: {x: 0.28651124, y: 0.8941043}
+      pivot: {x: 0.6249338, y: 0.89961904}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b74b63753b3174020800000000000000
-      internalID: 2325849393543427195
+      spriteID: 76cd0dc2acba6df70800000000000000
+      internalID: 9211738972656557159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacemanlatest_11
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 27
+        width: 72
+        height: 128
+      alignment: 9
+      pivot: {x: 0.42092896, y: 0.8904172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c435db23507ff05f0800000000000000
+      internalID: -788139808068381876
       vertices: []
       indices: 
       edges: []
@@ -263,7 +369,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 887278eabbca27745893b1842fe14d64
+    spriteID: b9163d31e98545047b59090782fd3ea3
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +379,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      spaceboy_0: 7158154596350859282
-      spaceboy_1: 3554327712913956320
-      spaceboy_2: 5700956273522825570
-      spaceboy_3: 1408773385822724257
-      spaceboy_4: -127791357381046162
-      spaceboy_5: 2325849393543427195
+      Body: 662813130720585665
+      LeftHandUp: -3721463832404465593
+      RightHandUp: 8440122204181597674
+      Rocket: -3225454318078108730
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
