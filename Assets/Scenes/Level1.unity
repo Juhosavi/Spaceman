@@ -1145,9 +1145,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 39993139}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (2)
@@ -1829,9 +1849,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 49443358}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (1)
@@ -9462,6 +9502,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien2 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 8603477295850260362, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -9602,9 +9662,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 145563855}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (2)
@@ -10229,6 +10309,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -11264,9 +11364,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 219226808}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (2)
@@ -11791,9 +11911,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 241854490}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (2)
@@ -11977,6 +12117,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -13901,9 +14061,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 323361168}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (2)
@@ -15917,9 +16097,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 412352800}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (1)
@@ -17132,6 +17332,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien2 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 8603477295850260362, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -17419,9 +17639,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 498453265}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (1)
@@ -19563,6 +19803,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -21001,6 +21261,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -26593,6 +26873,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -28031,6 +28331,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -28350,9 +28670,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 773684140}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (1)
@@ -28897,6 +29237,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -29406,6 +29766,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien2 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 8603477295850260362, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -34063,9 +34443,29 @@ PrefabInstance:
       value: EnemyBoss 2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -34465,6 +34865,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien2 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 8603477295850260362, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -35183,9 +35603,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1056718127}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (1)
@@ -35663,6 +36103,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -37396,9 +37856,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1167363350}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (1)
@@ -37568,6 +38048,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien2 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 8603477295850260362, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -37708,9 +38208,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1188611158}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (1)
@@ -38482,6 +39002,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -39793,6 +40333,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien2 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 8603477295850260362, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -40017,9 +40577,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1261246494}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (2)
@@ -43338,6 +43918,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -44629,6 +45229,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -44801,9 +45421,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1518320900}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (2)
@@ -45485,9 +46125,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1544455732}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (2)
@@ -45671,6 +46331,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -47356,6 +48036,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -48715,9 +49415,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1677439877}
     - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 8565785797134991542, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 9216907949077927938, guid: 088210a7e1776c647ac0770dd1a3ea30, type: 3}
       propertyPath: m_Name
       value: Alien3 (1)
@@ -51696,6 +52416,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien2 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 8603477295850260362, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -52367,6 +53107,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBoss 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 3507171666167968047, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 4502580430176168783, guid: ae1ab4c6e282dfd4f8e3b234b50b4e4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -57777,6 +58537,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien2 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 4928986554037532033, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 8603477295850260362, guid: ccd38c3a3cc5c9247b77cbd057dcf9cb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -58151,9 +58931,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 286870760}
     m_Modifications:
     - target: {fileID: 2196975520085510035, guid: b7fd1e6629980294e94451de006745de, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 2196975520085510035, guid: b7fd1e6629980294e94451de006745de, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1814553212966686688, guid: fe03339343cc0654892b19cab544fe44, type: 3}
+    - target: {fileID: 2196975520085510035, guid: b7fd1e6629980294e94451de006745de, type: 3}
+      propertyPath: EnemyDamageaudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196975520085510035, guid: b7fd1e6629980294e94451de006745de, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 647385222d343bc4387fe94e663c568e, type: 3}
+    - target: {fileID: 2196975520085510035, guid: b7fd1e6629980294e94451de006745de, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ea8a3c9fced3104e915d8ef09e07f96, type: 3}
+    - target: {fileID: 2196975520085510035, guid: b7fd1e6629980294e94451de006745de, type: 3}
+      propertyPath: 'EnemyDamageaudioClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ab26ec25473e14d93216e3b511f685, type: 3}
     - target: {fileID: 3828371133337610232, guid: b7fd1e6629980294e94451de006745de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.6

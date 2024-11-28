@@ -7,6 +7,7 @@ public class Scenes : MonoBehaviour
     public Image pause;
     public Image gameOver;
     public bool isPaused = false;
+    public GameObject soundPanel;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -78,5 +79,12 @@ public class Scenes : MonoBehaviour
     {
         Application.Quit();
     }
-
+    public void OptionsButton()
+    {
+        soundPanel.gameObject.SetActive(true);
+    }
+    public void ReturnMainmenuPanel()
+    {
+        soundPanel.gameObject.SetActive(false);
+    }
 }

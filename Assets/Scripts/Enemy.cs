@@ -7,12 +7,14 @@ public class Enemy : MonoBehaviour
     public GameObject ammoSpawn;
     public GameManager manager;
     public PointManager pointManager;
+    [SerializeField] private AudioClip[] EnemyDamageaudioClips;
+    
 
 
 
     void Start()
     {
-
+        
         pointManager = FindAnyObjectByType<PointManager>();
         manager = FindAnyObjectByType<GameManager>();
     }
@@ -31,6 +33,8 @@ public class Enemy : MonoBehaviour
             Destroy(collision.gameObject);
             Debug.Log("Pelaaja osui");
             pointManager.UpdateScore(10);
+            //SoundFXManager.Instance.PlaySoundEffect(audioClip, transform, 1f);
+            SoundFXManager.Instance.PlayRandomSoundEffect(EnemyDamageaudioClips, transform, 1f);
             
         }
 
