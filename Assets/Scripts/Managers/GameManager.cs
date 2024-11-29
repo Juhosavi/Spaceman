@@ -55,8 +55,9 @@ public class GameManager : MonoBehaviour
     }
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        //hakee SceneManagerin
+        // Hakee SceneManagerin
         scenes = FindFirstObjectByType<Scenes>();
+
         // Hakee Lives-Containerin ja sen lapsena olevat Lives-kuvat
         GameObject livesContainer = GameObject.Find("Lives");
 
@@ -66,9 +67,24 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Lives container not found in this scene!");
+            Debug.Log("Lives container not found in this scene!");
+        }
+
+        // P‰ivit‰ el‰mien UI
+        UpdateLivesUI();
+    }
+    public void UpdateLivesUI()
+    {
+        if (lives != null)
+        {
+            for (int i = 0; i < lives.Length; i++)
+            {
+                // N‰yt‰ vain k‰ytett‰viss‰ olevat el‰m‰t
+                lives[i].enabled = i < livesRemaining;
+            }
         }
     }
+
 
     void Start()
     {
@@ -129,14 +145,12 @@ public class GameManager : MonoBehaviour
         if (livesRemaining > 0)
         {
             livesRemaining--; // V‰henn‰ el‰mien m‰‰r‰‰
-            if (lives != null && livesRemaining < lives.Length)
-            {
-                PauseBriefly();
-                lives[livesRemaining].enabled = false; // Piilota seuraava el‰m‰
-            }
+            UpdateLivesUI();  // P‰ivit‰ el‰mien visuaalinen ilme
+            PauseBriefly();   // Lis‰t‰‰n pieni tauko osuman j‰lkeen
         }
-
     }
+
+
     public void TotalScore(int score)
     {
         totalScore += score;

@@ -37,6 +37,12 @@ public class Enemy : MonoBehaviour
             SoundFXManager.Instance.PlayRandomSoundEffect(EnemyDamageaudioClips, transform, 1f);
             
         }
+        if(collision.gameObject.CompareTag("AlienWin"))
+        {
+            Debug.Log("ALIENIT VOITTI");
+            manager.PauseGame();
+            manager.CallGameOver();
+        }
 
     }
     public void Shoot()

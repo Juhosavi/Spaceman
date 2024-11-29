@@ -12,6 +12,7 @@ TagManager:
   - EnemyTest
   - Top
   - LevelTrigger
+  - AlienWin
   layers:
   - Default
   - TransparentFX
