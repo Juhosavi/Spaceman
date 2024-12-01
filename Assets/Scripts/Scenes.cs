@@ -87,4 +87,8 @@ public class Scenes : MonoBehaviour
     {
         soundPanel.gameObject.SetActive(false);
     }
+    public void MultiPlayerBUtton()
+    {
+        SceneManager.LoadScene("PhotonMultiplayer");
+    }
 }
