@@ -1,5 +1,6 @@
 using UnityEngine;
 using Photon.Pun;
+using TMPro;
 
 public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
 {
@@ -9,12 +10,22 @@ public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
     public GameManager manager;
     public bool canshoot;
     public Animator animator;
-
+    public int killedEnemies;
+    //public TextMeshPro killedField;
+    public TextMeshPro nameField;
+    public int points;
+    public string playerName;
     private Vector3 targetScale; // Synkronoitu skaalan tila (k‰‰ntyminen)
     private Vector3 targetPosition; // Synkronoitu sijainti
 
     void Start()
     {
+        //otetaan nimi data ja muutetaan se 
+        object[] obj = photonView.InstantiationData;
+        playerName = obj[0].ToString();
+        nameField.text = playerName;
+
+   
         if (photonView.IsMine)
         {
             manager = FindAnyObjectByType<GameManager>();
@@ -30,8 +41,11 @@ public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
 
     void Update()
     {
+        
+        //killedField.text = points.ToString();
         if (photonView.IsMine)
         {
+            
             // Pelaajan liike
             float horizontalInput = Input.GetAxis("Horizontal");
             Vector3 newPosition = transform.position + new Vector3(horizontalInput * moveSpeed * Time.deltaTime, 0, 0);
@@ -53,13 +67,12 @@ public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
             // P‰ivit‰ animaatio
             animator.SetBool("Run", horizontalInput != 0);
 
-            // Ammu ammus
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                Instantiate(ammo, ammoSpawn.transform.position, Quaternion.identity);
-                canshoot = false;
-                animator.SetTrigger("realShoot");
+                photonView.RPC("ShootAmmo", RpcTarget.All);
+                
             }
+ 
         }
         else
         {
@@ -68,6 +81,29 @@ public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
             transform.localScale = Vector3.Lerp(transform.localScale, targetScale, Time.deltaTime * 10f);
         }
     }
+    [PunRPC]
+    public void ShootAmmo()
+    {
+        if (photonView.IsMine)
+        {
+            // K‰yt‰ uutta moninpelin ammuksen prefabin nime‰
+            PhotonNetwork.Instantiate("MultiplayerAmmo", ammoSpawn.transform.position, Quaternion.identity);
+        }
+    }
+    [PunRPC]
+    public void TestPoinits()
+    {
+        photonView.RPC("PointsToPlayers", RpcTarget.AllBuffered);
+    }
+
+    [PunRPC]
+    public void PointsToPlayers()
+    {
+        points += 1;
+    }
+
+
+
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {

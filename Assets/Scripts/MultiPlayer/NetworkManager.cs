@@ -10,12 +10,14 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     private const string roomName = "GameRoom";
 
     public GUIStyle myStyle;
+    public string playerNameInput;
 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        playerNameInput = "Enter your Name";
         myStyle.fontSize = 18;
         myStyle.normal.textColor = Color.white;
         roomsList = new List<RoomInfo>(); //alustetaan huonelistaus tyhj‰ll‰ listalla.
@@ -41,6 +43,9 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
         if(PhotonNetwork.InRoom == false)
         {
+            //nimensyˆttˆkentt‰
+            playerNameInput = GUI.TextField(new Rect(10, 70, 200, 20), playerNameInput, 9);
+
             //ei olla huoneessa mutta ollaan varmasti lobbyssa
             //annetaan pelaajan tehd‰ oma huone ja listataan kaikki huoneet
 
@@ -48,7 +53,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             {
                 //Create room painettu luodaan huone
 
-                PhotonNetwork.CreateRoom(roomName + System.Guid.NewGuid().ToString("N"));
+                PhotonNetwork.CreateRoom(roomName);
             }
 
             //listataan kaikki olemassa olveta huoneet. tehd‰‰n listaus vain jos huoneita on enemm‰n kuin 0
@@ -58,7 +63,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
                 foreach(RoomInfo room in roomsList) 
                 {
 
-                    if (GUI.Button(new Rect(100, 250 * 110 * i, 250, 100), "Join: "+ room.Name))
+                    if (GUI.Button(new Rect(100, 250 + 110 * i, 250, 100), "Join: "+ room.Name))
                     {
                         PhotonNetwork.JoinRoom(room.Name);
                     }
@@ -81,12 +86,22 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         //on saatu yhteys masteriin --> liityt‰‰n lobbyyn
         PhotonNetwork.JoinLobby();
     }
-    public override void OnJoinedRoom() 
+    public override void OnJoinedRoom()
     {
-        //kun huoneeseen liityt‰‰n, instansioidaan kyseiselle k‰ytt‰j‰le pelihahmo pelimaaillmaan
-        // kappale joka insansidoiaan PhotonNetworkin avulla, tulee sis‰lt‰‰ photonView komponentti
-        //kappale tulisi olla myˆs Resources kansiossa.
+        string[] plData= new string[1];
+        plData[0] = playerNameInput;
+        // Tarkista, kuinka monta pelaajaa on jo huoneessa
+        if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
+        {
+            // Ensimm‰inen pelaaja saa SpaceManLatest
+            PhotonNetwork.Instantiate("SpaceManLatest", new Vector2(0, -5), Quaternion.identity, 0, plData);
+        }
+        else if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
+        {
+            // Toinen pelaaja saa SpaceBoyLatest
+            PhotonNetwork.Instantiate("SpaceBoyLatest", new Vector2(0, -5), Quaternion.identity, 0, plData);
+        }
 
-        PhotonNetwork.Instantiate("SpaceManLatest", new Vector2(0, -4), Quaternion.identity, 0);
     }
+
 }

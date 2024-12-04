@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class AmmoMove : MonoBehaviour
 {
     public float ammoSpeed;

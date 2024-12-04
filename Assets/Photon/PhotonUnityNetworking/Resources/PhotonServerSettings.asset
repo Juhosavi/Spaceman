@@ -39,6 +39,19 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - SHootAmmo
+  - ShootAmmo
+  - PointsToPlayers
+  - AddPoints
+  - AwardPoints
+  - TestPoinits
+  - ShootFromEnemy
+  - SyncPosition
+  - SyncMovement
+  - SyncDirection
+  - SyncPositionAndDirection
+  - EnableMotherShip
+  - RequestDestroyEnemy
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

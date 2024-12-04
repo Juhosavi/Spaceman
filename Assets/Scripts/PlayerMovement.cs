@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 
 public class PlayerMovement : MonoBehaviour
@@ -9,7 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public GameManager manager;
     public bool canshoot;
     public Animator animator;
-  
+    [SerializeField] private AudioClip[] playeShootAudio;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -56,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
             Instantiate(ammo, ammoSpawn.transform.position, Quaternion.identity);
             canshoot = false;
             animator.SetTrigger("realShoot");
+            SoundFXManager.Instance.PlayRandomSoundEffect(playeShootAudio, transform, 1f);
         }
     }
 
