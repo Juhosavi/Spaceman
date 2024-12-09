@@ -5,12 +5,13 @@ public class AmmoMove : MonoBehaviour
 {
     public float ammoSpeed;
     public GameManager manager;
+    private PointManager pointManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         manager = FindAnyObjectByType<GameManager>();
-
+        pointManager = GameObject.Find("PointManager").GetComponent<PointManager>();
     }
 
     // Update is called once per frame
@@ -39,6 +40,14 @@ public class AmmoMove : MonoBehaviour
             PlayerMovement playermove = FindFirstObjectByType<PlayerMovement>();
             playermove.canshoot = true;
         }
+        if (collision.gameObject.CompareTag("Projectile"))
+        {
+            Destroy(gameObject);
+            PlayerMovement playermove = FindFirstObjectByType<PlayerMovement>();
+            playermove.canshoot = true;
+            pointManager.UpdateScore(10);
+        }
+
 
     }
 

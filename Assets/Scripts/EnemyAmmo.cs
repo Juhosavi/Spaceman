@@ -4,11 +4,13 @@ public class EnemyAmmo : MonoBehaviour
 {
     public float ammoSpeed;
     public GameManager manager;
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         manager = FindAnyObjectByType<GameManager>();
+        
     }
 
     // Update is called once per frame
@@ -29,7 +31,14 @@ public class EnemyAmmo : MonoBehaviour
             manager.RemoveLife();
             Destroy(gameObject);
         }
-       
+        //if (collision.gameObject.CompareTag("PlayerProjectile"))
+        //{
+        //    Destroy(gameObject);
+        //    PlayerMovement playermove = FindFirstObjectByType<PlayerMovement>();
+        //    playermove.canshoot = true;
+        //    pointManager.UpdateScore(10);
+        //}
+
 
     }
 

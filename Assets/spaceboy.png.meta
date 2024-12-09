@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spaceboy_0: 7158154596350859282
+      spaceboy_1: 3554327712913956320
+      spaceboy_2: 5700956273522825570
+      spaceboy_3: 1408773385822724257
+      spaceboy_4: -127791357381046162
+      spaceboy_5: 2325849393543427195
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -17,7 +17,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playerNameInput = "Enter your Name";
+        playerNameInput = "Enter name";
         myStyle.fontSize = 18;
         myStyle.normal.textColor = Color.white;
         roomsList = new List<RoomInfo>(); //alustetaan huonelistaus tyhjällä listalla.
@@ -44,7 +44,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         if(PhotonNetwork.InRoom == false)
         {
             //nimensyöttökenttä
-            playerNameInput = GUI.TextField(new Rect(10, 70, 200, 20), playerNameInput, 9);
+            playerNameInput = GUI.TextField(new Rect(10, 70, 200, 20), playerNameInput, 12);
 
             //ei olla huoneessa mutta ollaan varmasti lobbyssa
             //annetaan pelaajan tehdä oma huone ja listataan kaikki huoneet
