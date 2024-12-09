@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 4659720559528199518}
   m_Layer: 0
   m_Name: SpaceManLatest
-  m_TagString: Player
+  m_TagString: PlayerHit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -806,6 +806,8 @@ MonoBehaviour:
   nameField: {fileID: 1015880208917139264}
   points: 0
   playerName: NoName
+  playeShootAudio:
+  - {fileID: 8300000, guid: 712693af423cb604bbf3a708efa75a5f, type: 3}
 --- !u!114 &403918492351672967
 MonoBehaviour:
   m_ObjectHideFlags: 0

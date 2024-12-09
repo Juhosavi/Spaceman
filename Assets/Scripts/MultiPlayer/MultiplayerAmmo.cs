@@ -35,7 +35,7 @@ public class MultiplayerAmmo : MonoBehaviourPun
         {
             if(photonView.IsMine) 
             {
-                playermove.TestPoinits();
+               // playermove.TestPoinits();
             }
             Debug.Log("Osuma pelaajaan!");
             PhotonNetwork.Destroy(gameObject); // Tuhotaan ammus verkossa

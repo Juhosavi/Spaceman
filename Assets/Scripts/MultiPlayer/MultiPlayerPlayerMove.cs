@@ -1,6 +1,7 @@
 using UnityEngine;
 using Photon.Pun;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
 {
@@ -11,21 +12,23 @@ public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
     public bool canshoot;
     public Animator animator;
     public int killedEnemies;
-    //public TextMeshPro killedField;
     public TextMeshPro nameField;
     public int points;
     public string playerName;
+
     private Vector3 targetScale; // Synkronoitu skaalan tila (k‰‰ntyminen)
     private Vector3 targetPosition; // Synkronoitu sijainti
+    private float shootCooldown = 0.5f; // Ampumisen cooldown
+    private float lastShootTime; // Viimeisin ampumisaika
+    [SerializeField] private AudioClip[] playeShootAudio;
 
     void Start()
     {
-        //otetaan nimi data ja muutetaan se 
+        // Ota nimi datasta ja aseta se
         object[] obj = photonView.InstantiationData;
         playerName = obj[0].ToString();
         nameField.text = playerName;
 
-   
         if (photonView.IsMine)
         {
             manager = FindAnyObjectByType<GameManager>();
@@ -41,11 +44,8 @@ public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
 
     void Update()
     {
-        
-        //killedField.text = points.ToString();
         if (photonView.IsMine)
         {
-            
             // Pelaajan liike
             float horizontalInput = Input.GetAxis("Horizontal");
             Vector3 newPosition = transform.position + new Vector3(horizontalInput * moveSpeed * Time.deltaTime, 0, 0);
@@ -67,12 +67,12 @@ public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
             // P‰ivit‰ animaatio
             animator.SetBool("Run", horizontalInput != 0);
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            // Ammu, jos painetaan Space ja cooldown on kulunut
+            if (Input.GetKeyDown(KeyCode.Space) && Time.time - lastShootTime >= shootCooldown)
             {
+                lastShootTime = Time.time; // P‰ivit‰ viimeisimm‰n ampumisen aika
                 photonView.RPC("ShootAmmo", RpcTarget.All);
-                
             }
- 
         }
         else
         {
@@ -81,29 +81,17 @@ public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
             transform.localScale = Vector3.Lerp(transform.localScale, targetScale, Time.deltaTime * 10f);
         }
     }
+
     [PunRPC]
     public void ShootAmmo()
     {
         if (photonView.IsMine)
         {
             // K‰yt‰ uutta moninpelin ammuksen prefabin nime‰
+            SoundFXManager.Instance.PlayRandomSoundEffect(playeShootAudio, transform, 1f);
             PhotonNetwork.Instantiate("MultiplayerAmmo", ammoSpawn.transform.position, Quaternion.identity);
         }
     }
-    [PunRPC]
-    public void TestPoinits()
-    {
-        photonView.RPC("PointsToPlayers", RpcTarget.AllBuffered);
-    }
-
-    [PunRPC]
-    public void PointsToPlayers()
-    {
-        points += 1;
-    }
-
-
-
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
@@ -120,4 +108,15 @@ public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
             targetScale = (Vector3)stream.ReceiveNext();
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log($"Collision with: {collision.gameObject.name}");
+        if (collision.gameObject.CompareTag("Projectile"))
+        {
+            Debug.Log("Projectile hit player!");
+            SceneManager.LoadScene("Loading");
+        }
+    }
+
+
 }

@@ -18,6 +18,15 @@ public class MPEnemyMove : MonoBehaviourPun
         }
     }
 
+    private void Update()
+    {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            UpdateEnemyList(); // Päivitä lista säännöllisesti
+            CheckForEmptyList(); // Tarkista, onko lista tyhjä
+        }
+    }
+
     public void ShootAmmo()
     {
         if (!PhotonNetwork.IsMasterClient) return; // Vain Master Client suorittaa tämän
@@ -49,12 +58,20 @@ public class MPEnemyMove : MonoBehaviourPun
 
         randnum = Random.Range(3, 10); // Päivitetään uusi ammunnan ajastus
     }
+
     private void UpdateEnemyList()
     {
         enemys = enemys.Where(e => e != null && e.activeInHierarchy).ToArray();
     }
 
-
+    private void CheckForEmptyList()
+    {
+        if (enemys.Length == 0)
+        {
+            Debug.Log($"{gameObject.name} tuhoutuu, koska enemys-lista on tyhjä.");
+            PhotonNetwork.Destroy(gameObject); // Tuhoaa objektin Photonissa
+        }
+    }
 
     [PunRPC]
     public void ShootFromEnemy(int enemyViewID)

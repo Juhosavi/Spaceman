@@ -118,7 +118,7 @@ public class GameManager : MonoBehaviour
             manager.Level1 = false;
             manager.Level2 = false;
             manager.Level3 = false;
-            SceneManager.LoadScene("Finish");
+            SceneManager.LoadScene("GameDone");
         }
     }
     public void CallGameOver()

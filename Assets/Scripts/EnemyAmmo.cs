@@ -29,7 +29,9 @@ public class EnemyAmmo : MonoBehaviour
             manager.RemoveLife();
             Destroy(gameObject);
         }
+       
 
     }
+
 
 }

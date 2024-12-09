@@ -8,6 +8,7 @@ public class Scenes : MonoBehaviour
     public Image gameOver;
     public bool isPaused = false;
     public GameObject soundPanel;
+    public GameObject creditspanel;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -41,6 +42,7 @@ public class Scenes : MonoBehaviour
     public void Load()
     {
         GameManager.manager.Load();
+        PlayGame();
         
     }
     public void RestartScene()
@@ -83,12 +85,24 @@ public class Scenes : MonoBehaviour
     {
         soundPanel.gameObject.SetActive(true);
     }
+    public void CreditsButton()
+    {
+        creditspanel.gameObject.SetActive(true);
+    }
     public void ReturnMainmenuPanel()
     {
         soundPanel.gameObject.SetActive(false);
     }
+    public void ReturnFromCredits()
+    {
+        creditspanel.gameObject.SetActive(false);
+    }
     public void MultiPlayerBUtton()
     {
         SceneManager.LoadScene("PhotonMultiplayer");
+    }
+    public void ReturnFromAll()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
