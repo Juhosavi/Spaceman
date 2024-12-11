@@ -51,7 +51,7 @@ public class MultiPlayerPlayerMove : MonoBehaviourPunCallbacks, IPunObservable
             Vector3 newPosition = transform.position + new Vector3(horizontalInput * moveSpeed * Time.deltaTime, 0, 0);
 
             // Rajoita liike alueelle -8 ja +8
-            newPosition.x = Mathf.Clamp(newPosition.x, -8f, 8f);
+            newPosition.x = Mathf.Clamp(newPosition.x, -10f, 10f);
             transform.position = newPosition;
 
             // Hahmon flippaus
