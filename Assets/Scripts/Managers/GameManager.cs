@@ -176,52 +176,48 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine(PauseCoroutine());
     }
-   
+
 
 
     public void Save()
     {
         Debug.Log("GAMESAVED");
-        BinaryFormatter bf = new BinaryFormatter();
-        FileStream file = File.Create(Application.persistentDataPath + "/playerInfo.dat");
-        PlayerData data = new PlayerData();
-        data.totalScore = totalScore;
-        data.enemyCount = enemyCount;
-        data.livesRemaining = livesRemaining;
-        data.currentLevel = currentLevel;
-        data.Level1 = Level1;
-        data.Level2 = Level2;
-        data.Level3 = Level3;
-        data.Level4 = Level4;
-        bf.Serialize(file, data);
-        file.Close();
 
+        PlayerPrefs.SetInt("TotalScore", totalScore);
+        PlayerPrefs.SetInt("EnemyCount", enemyCount);
+        PlayerPrefs.SetInt("LivesRemaining", livesRemaining);
+        PlayerPrefs.SetString("CurrentLevel", currentLevel);
+
+        PlayerPrefs.SetInt("Level1", Level1 ? 1 : 0);
+        PlayerPrefs.SetInt("Level2", Level2 ? 1 : 0);
+        PlayerPrefs.SetInt("Level3", Level3 ? 1 : 0);
+        PlayerPrefs.SetInt("Level4", Level4 ? 1 : 0);
+
+        PlayerPrefs.Save(); // Tallenna tiedot selaimen paikalliseen tallennustilaan
     }
 
     public void Load()
     {
-        //Katsotaan onko tallennettua tiedostao olemassa. jos on niin load tapahtuu
-        if(File.Exists(Application.persistentDataPath + "/playerInfo.dat"))
+        if (PlayerPrefs.HasKey("TotalScore"))
         {
-            //MIETI TÄHÄN JOS LAITAT LOAD NAPPULAN VASTA KUN ON LADATTAVAA DATAA ?
-            Debug.Log("Game LOADED");
-            BinaryFormatter bf = new BinaryFormatter();
-            FileStream file = File.Open(Application.persistentDataPath + "/playerInfo.dat", FileMode.Open);
-            PlayerData data = (PlayerData)bf.Deserialize(file);
-            file.Close();
+            Debug.Log("GAME LOADED");
 
-            //siirretään ladattu info GameManageriin;
-            totalScore = data.totalScore;
-            enemyCount = data.enemyCount;
-            enemyCount = data.enemyCount;
-            livesRemaining = data.livesRemaining;
-            Level1 = data.Level1;
-            Level2 = data.Level2;
-            Level3 = data.Level3;
-            Level4 = data.Level4;
-            
+            totalScore = PlayerPrefs.GetInt("TotalScore");
+            enemyCount = PlayerPrefs.GetInt("EnemyCount");
+            livesRemaining = PlayerPrefs.GetInt("LivesRemaining");
+            currentLevel = PlayerPrefs.GetString("CurrentLevel");
+
+            Level1 = PlayerPrefs.GetInt("Level1") == 1;
+            Level2 = PlayerPrefs.GetInt("Level2") == 1;
+            Level3 = PlayerPrefs.GetInt("Level3") == 1;
+            Level4 = PlayerPrefs.GetInt("Level4") == 1;
+        }
+        else
+        {
+            Debug.Log("No saved data found.");
         }
     }
+
     //toinen luokka joka voidaan serialioisda, pitää sisällään vain sen datan mitä seriaalioidaan
 
     [Serializable]
